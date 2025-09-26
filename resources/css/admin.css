@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .imgPreview {
+        @apply w-40 aspect-video rounded overflow-clip hidden;
+    }
+    .imgPreview.active {
+        @apply flex;
+    }
+}
